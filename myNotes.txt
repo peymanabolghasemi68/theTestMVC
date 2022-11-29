@@ -1,0 +1,13 @@
+﻿
+DB:
+1: create the class of model with constructor under (Models) folder
+2: create the class of modelMapping under (Mapping) folder 
+3: create BlogContext.cs or dbContext.cs etc.
+4: set ConnectionStrings
+5: modify Startup.cs: services.AddDbContext
+6: scaffolding  Add-Migration/Update-Database/Remove-Migration/Drop-Database
+*: after add a column to table, its an empty field. other recoreds remains
+*: add Table> 
+نکته: اگر مایگریشن/آپدیت فیلد شد، داخل فایل اسنپ شات، زیر جدول مربوطه، فیلد اد شد ه را پاک کنم و مجدد از نو تکرار کنم
+*: 
+-----------------------------
